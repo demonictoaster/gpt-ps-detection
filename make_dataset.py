@@ -3,6 +3,10 @@ import os
 import pickle
 
 
+""" 
+This transforms the powershell scripts from https://github.com/das-lab/mpsd
+to list of strings and saves them as pickle files. 
+"""
 paths = {
 'raw_pure' : "/home/toaster/dev/mpsd/malicious_pure/",
 'raw_mixed' : "/home/toaster/dev/mpsd/mixed_malicious/",
